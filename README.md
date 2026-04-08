@@ -48,15 +48,17 @@ Nos projetos pessoais sou PM, dev e usuário ao mesmo tempo. Isso força valida�
 
 ---
 
-### Flight Monitor — Alerta de passagens GRU → Europa
+### Flight Monitor — Alertas de passagens GRU → Europa
 
-**Problema:** Achar passagem barata para a Europa exige checar sites todo dia — e o preço certo aparece por janelas curtas.
+**Problema:** Encontrar passagens baratas para a Europa exige checar sites manualmente todo dia — e o preço certo aparece por janelas curtas, sem aviso.
 
-**O que foi construído:** Automação que monitora preços diariamente e envia alerta por e-mail quando o preço cai abaixo do threshold. Sem servidor, sem API paga, roda no GitHub Actions.
+**Insight:** O usuário não precisa ficar procurando o voo — precisa ser avisado quando o voo certo aparecer. E não precisa criar conta para isso.
 
-**Aprendizado principal:** Notificação no momento certo vale mais que riqueza de informação. O alerta precisa ser rápido, claro e ter um link direto para agir.
+**O que foi construído:** Produto web onde qualquer pessoa define origem, destino, período e teto de preço e recebe alerta por e-mail quando encontrar voo dentro do limite. Cancelamento com um clique, sem login. Monitoramento diário automatizado via GitHub Actions.
 
-`Python · GitHub Actions · Gmail API`
+**Aprendizado principal:** Remover a necessidade de conta foi a decisão de conversão mais importante — a barreira de cadastro mata antes de o usuário ver valor.
+
+`Next.js · Supabase · Python · GitHub Actions · Vercel`
 
 ---
 
