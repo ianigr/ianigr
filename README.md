@@ -2,11 +2,9 @@
 
 # Ian Rios — Product Manager & AI Builder
 
-**Product Manager at Mercado Pago** (Home for Sellers) · São Paulo, Brazil
+**Product Manager at Mercado Pago** · São Paulo, Brazil
 
-I build products for a living and build products on the side.
-
-At Mercado Pago, I work on making the app the primary financial and management tool for Brazilian sellers — driving adoption across banking, acquiring, and business management. Outside of work, I build AI-native products from zero: identify a real user problem, frame it as a testable hypothesis, ship an MVP using AI, and iterate based on data.
+I build AI-native products from zero: identify a real user problem, frame it as a testable hypothesis, ship an MVP using AI, and iterate based on data.
 
 ---
 
@@ -122,7 +120,7 @@ I use AI throughout this cycle: for synthesis in discovery, for generating and s
 
 ### Flight Monitor — Be notified. Don't search.
 
-**The problem:** Finding cheap flights to Europe requires daily manual checking across multiple sites. The right price appears in short windows — sometimes hours — and disappears. Monitoring creates zero value; it's pure mechanical repetition of a trivial condition check: *did the price drop below my threshold?*
+**The problem:** Finding cheap flights requires daily manual checking across multiple sites. The right price appears in short windows — sometimes hours — and disappears. Monitoring creates zero value; it's pure mechanical repetition of a trivial condition check: *did the price drop below my threshold?*
 
 **Jobs to be done:** *"Tell me when the right flight appears. Don't make me look for it."*
 
@@ -135,6 +133,7 @@ I use AI throughout this cycle: for synthesis in discovery, for generating and s
 - One-click cancellation via UUID token embedded in every email — no login, no account
 - Multi-airport expansion: "São Paulo" automatically monitors GRU + CGH + VCP — users think in cities, not IATA codes
 - Exchange rate applied automatically: daily USD→BRL rate via open API + 6.38% IOF — the threshold the user sets is the number they see on their credit card statement
+- Optional account creation: users who want to manage multiple alerts get a dashboard to view, pause, and delete all their active alerts in one place — account is optional, not required to use the product
 - Alert history table in Supabase with full audit trail of notifications sent
 
 **Key product decisions:**
@@ -153,7 +152,7 @@ I use AI throughout this cycle: for synthesis in discovery, for generating and s
 - **Email engagement:** open rate and click-through to booking page per alert email sent
 - **Alert lifetime:** average days an alert stays active before cancellation (proxy for user satisfaction — if users cancel quickly, the alerts aren't useful)
 
-**Status:** Live · In personal use · Evaluating expansion to broader user base
+**Status:** Live · 4 active users in testing · Validating alert-to-notification conversion rate
 
 `Next.js · Supabase · Python · GitHub Actions · Vercel`
 
@@ -172,21 +171,6 @@ AI isn't only in the products I build — it's in how I work as a PM.
 | **Data analysis** | Funnel interpretation, cohort analysis, anomaly detection, segmentation hypotheses, experiment design and statistical read-out |
 | **Development** | Claude Code for MVP implementation — I ship prototypes and internal tools without waiting for engineering sprints |
 | **Decision-making** | Structured reasoning with explicit assumptions, confidence levels, and reversibility assessment before escalating to stakeholders |
-
----
-
-## At Mercado Pago
-
-PM for the Sellers Home — the primary entry point for the seller experience in Mercado Pago. The home concentrates the highest-traffic surface in the app and is responsible for awareness, discovery, activation, and retention of every product the seller uses.
-
-**Day-to-day work:**
-- Quantitative analysis: funnels, cohort retention, experiment results interpretation
-- A/B test design: hypothesis framing, metric selection, minimum detectable effect calculation, statistical significance
-- Qualitative discovery: seller interviews, usability testing, behavioral analysis
-- Roadmap definition and prioritization (RICE, Impact vs. Effort)
-- Cross-functional execution: design, engineering, data, business stakeholders
-
-**North Star:** Principality — making Mercado Pago the primary financial and management tool for Brazilian sellers, measured by share of financial transactions, products actively used per seller, and daily active usage.
 
 ---
 
