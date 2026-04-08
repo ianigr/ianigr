@@ -2,11 +2,9 @@
 
 # Ian Rios — Product Manager & AI Builder
 
-**Product Manager en Mercado Pago** (Home de Sellers) · São Paulo, Brasil
+**Product Manager en Mercado Pago** · São Paulo, Brasil
 
-Construyo productos en el trabajo y construyo productos fuera del trabajo.
-
-En Mercado Pago, me enfoco en hacer del app la herramienta financiera y de gestión principal de los vendedores brasileños — acelerando adopción en banking, acquiring y gestión de negocio. Fuera del trabajo, construyo productos nativos de IA desde cero: identifico un problema real del usuario, lo formulo como hipótesis testeable, lanzo un MVP usando IA e itero con datos.
+Construyo productos nativos de IA desde cero: identifico un problema real del usuario, lo formulo como hipótesis testeable, lanzo un MVP usando IA e itero con datos.
 
 ---
 
@@ -122,7 +120,7 @@ Uso IA en todo este ciclo: para síntesis en discovery, para generar y estresar 
 
 ### Flight Monitor — Que te avisen. No busques vos.
 
-**El problema:** Encontrar pasajes baratos a Europa requiere revisar sitios manualmente todos los días. El precio correcto aparece en ventanas cortas — a veces horas — y desaparece. Monitorear no crea ningún valor; es pura repetición mecánica de una verificación trivial: *¿bajó el precio de mi límite?*
+**El problema:** Encontrar pasajes baratos requiere revisar sitios manualmente todos los días. El precio correcto aparece en ventanas cortas — a veces horas — y desaparece. Monitorear no crea ningún valor; es pura repetición mecánica de una verificación trivial: *¿bajó el precio de mi límite?*
 
 **Job to be done:** *"Avisame cuando aparezca el vuelo correcto. No me hagas buscarlo."*
 
@@ -135,6 +133,7 @@ Uso IA en todo este ciclo: para síntesis en discovery, para generar y estresar 
 - Cancelación en un clic vía token UUID embebido en todos los mails — sin login, sin cuenta
 - Expansión multi-aeropuerto automática: "São Paulo" monitorea automáticamente GRU + CGH + VCP — los usuarios piensan en ciudades, no en códigos IATA
 - Tipo de cambio aplicado automáticamente: tasa diaria USD→BRL vía API abierta + 6,38% de IOF — el límite que define el usuario es el número que aparece en el resumen de tarjeta
+- Creación de cuenta opcional: los usuarios que quieran gestionar múltiples alertas tienen acceso a un dashboard para ver, pausar y eliminar todas sus alertas activas en un solo lugar — la cuenta es opcional, no requerida para usar el producto
 - Tabla de historial de alertas en Supabase con trazabilidad completa de notificaciones enviadas
 
 **Decisiones clave de producto:**
@@ -153,7 +152,7 @@ Uso IA en todo este ciclo: para síntesis en discovery, para generar y estresar 
 - **Engagement de mail:** tasa de apertura y clics en el link de compra por mail de alerta enviado
 - **Lifetime de la alerta:** días promedio que una alerta sigue activa antes de la cancelación (proxy de satisfacción)
 
-**Estado:** En uso · Evaluando expansión a una base de usuarios más amplia
+**Estado:** En uso · 4 usuarios activos en fase de prueba · Validando tasa de conversión alerta→notificación
 
 `Next.js · Supabase · Python · GitHub Actions · Vercel`
 
@@ -172,21 +171,6 @@ La IA no está solo en los productos que construyo — está en cómo trabajo co
 | **Análisis de datos** | Interpretación de embudo, análisis de cohorte, detección de anomalías, hipótesis de segmentación, diseño y lectura de experimentos |
 | **Desarrollo** | Claude Code para implementación de MVPs — lanzo prototipos y herramientas internas sin esperar sprint de ingeniería |
 | **Toma de decisión** | Razonamiento estructurado con supuestos explícitos, niveles de confianza y evaluación de reversibilidad antes de escalar a stakeholders |
-
----
-
-## En Mercado Pago
-
-PM de la Home de Sellers — el principal punto de entrada de la experiencia del vendedor en Mercado Pago. La home concentra la superficie de mayor tráfico del app y es responsable del awareness, descubrimiento, activación y retención de todos los productos que usa el seller.
-
-**Día a día:**
-- Análisis cuantitativo: embudos, retención de cohortes, interpretación de resultados de experimentos
-- Diseño de A/B tests: formulación de hipótesis, selección de métrica, cálculo de MDE, significancia estadística
-- Discovery cualitativo: entrevistas con sellers, tests de usabilidad, análisis conductual
-- Definición y priorización de roadmap (RICE, Impact vs. Effort)
-- Ejecución cross-funcional: diseño, ingeniería, datos, stakeholders de negocio
-
-**North Star:** Principalidad — hacer de Mercado Pago la herramienta financiera y de gestión principal del vendedor brasileño, medida por share de transacciones financieras, productos activamente usados por seller y uso activo diario.
 
 ---
 
